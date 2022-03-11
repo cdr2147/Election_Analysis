@@ -9,7 +9,7 @@ Assist a Colorado Board of Elections employee in an election audit of tabluated 
 ## Resources
 * Data Source: election_results.csv
 * Software: Python 3.7.6, Visual Studio Code, 1.65.2
-## Summary of Results
+## Election-Audit Results
 The analysis of the election show that:
 
 * There were 369,711 votes cast in the election
@@ -24,6 +24,14 @@ The analysis of the election show that:
   * Raymon Anthony Doane received 3.1% of the vote and 11,606 votes
 * The winner of the elction was:
   * Diana DeGette, who received 73.8% of the vote and 272,892 votes
+ 
+ The script that was used to perform this analysis tracked both the votes and percentage of votes per candidate, in addition to determining the winner of the popular vote as shown below:
+ ![Code snapshot 1](https://user-images.githubusercontent.com/99205688/157983712-d6b88ec8-1907-48c0-83ac-9c60373abc25.JPG)
+
+When this script ran, the output was saved to an easy-to-read txt.file:
+ 
+![results](https://user-images.githubusercontent.com/99205688/157984141-40b37878-0bc9-4ed1-85e1-7f02daeaa58d.JPG)
 ## Election-Audit Summary
-In summary, the script used in this election audit can be used, with some modification, for any election. 
+In summary, the script used in this election audit can be used, with some modification, for any election. This code could be modified to produce additional statements in the output, such as 
+
 a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections

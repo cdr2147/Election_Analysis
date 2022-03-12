@@ -32,6 +32,5 @@ When this script ran, the output was saved to an easy-to-read txt.file:
  
 ![results](https://user-images.githubusercontent.com/99205688/157984141-40b37878-0bc9-4ed1-85e1-7f02daeaa58d.JPG)
 ## Election-Audit Summary
-In summary, the script used in this election audit can be used, with some modification, for any election. This code could be modified to produce additional statements in the output, such as 
+In summary, the script used in this election audit can be used, with some modification, for any election. This code could be modified to calculate vote and percentage totals per candidate in a rank choice voting election. The code would need to calculate if a candidate received at least 50% of the total vote in round one to declare a winner, or it would need to continue to check votes in subsequent rounds until a candidate reached at least 50% of the vote. The code could also be modified to calculate which candidate won the highest percentage of each county, which could help future candidates understand the demographics of each area.
 
-a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections
